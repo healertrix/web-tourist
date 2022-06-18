@@ -1,10 +1,19 @@
 import React from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-navblue ">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="">
+          <Image
+            width="90%"
+            height="90%"
+            // className="h-10 w-10"
+            src="/images/state_logo.png"
+            alt="logo"
+          ></Image>
+        </a>
       </div>
       <div className="flex-none gap-2">
         <div className="dropdown dropdown-end">
@@ -14,7 +23,7 @@ const Navbar = () => {
             </div>
           </label>
           <ul
-            tabiIdex="0"
+            tabIndex="0"
             className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
           >
             <li>

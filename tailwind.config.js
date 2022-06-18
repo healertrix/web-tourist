@@ -4,7 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      navblue: "#000955",
+    },
     extend: {},
   },
+
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"],
+  },
 };
