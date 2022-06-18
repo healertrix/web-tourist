@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     colors: {
       navblue: "#000955",
+      btnblue: "#110F78",
     },
     extend: {},
   },

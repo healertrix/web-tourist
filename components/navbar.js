@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React from "react";
 import Image from "next/image";
 
@@ -17,6 +15,7 @@ const Navbar = () => {
           ></Image>
         </a>
       </div>
+
       <div className="flex-none gap-2">
         <div className="dropdown dropdown-end">
           <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
@@ -44,4 +43,3 @@ const Navbar = () => {
   );
 };
 export default Navbar;
->>>>>>> f65059d06dcb91d87a910371f9d1bdb193e59778
